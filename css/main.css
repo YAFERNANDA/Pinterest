@@ -1,0 +1,24 @@
+.pint{
+  font-size: 40px;
+}
+
+.search{
+  margin:2px;
+  /*outline: 2px solid red;*/
+  height:50px;
+  width:400px;
+  background-color: rgb(221, 221, 221);
+  position: relative;
+  left:50px;
+  bottom:80px;
+}
+
+p{
+  outline: 1px solid red;
+  width: 100px;
+  display: inline-block;
+  margin:5px;
+  padding:15px;
+  text-align: center;
+  background-color:rgb(231, 125, 143);
+}
