@@ -7,7 +7,7 @@
 
 .searcher{
   margin:2px;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
   height:50px;
   width:900px;
   background-color: rgb(239,239, 239);
@@ -17,7 +17,7 @@
 }
 
 .js{
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
   font-size: 20px;
   color: gray;
   position: relative;
@@ -26,12 +26,25 @@
 }
 
 .person{
-  outline: 1px solid orange;
+  /*outline: 1px solid orange;*/
   width:100px;
-  font-size: 20px;
+  font-size: 30px;
+  position: relative;
+  left:1100px;
+  bottom: 60px;
+  color: gray;
 }
+
+.top{
+  outline: 1px solid red;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
 .icon-search{
-  outline:1px solid purple;
+  /*outline:1px solid purple;*/
   font-size: 20px;
   position:relative;
   left:50px;
@@ -39,7 +52,7 @@
 }
 
 p{
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   width: 100px;
   display: inline-block;
   margin:5px;
