@@ -1,19 +1,25 @@
+#body{
+  margin:0;
+  display: block;
+}
+
 .pint{
-  font-size: 45px;
-  position: relative;
-  left:100px;
-  top: 37px;
+  font-size: 46px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top:10px;
 }
 
 .searcher{
   margin:2px;
+  border-radius:6px;
   /*outline: 2px solid red;*/
   height:50px;
-  width:900px;
+  width:70%;
   background-color: rgb(239,239, 239);
-  position: relative;
-  left:170px;
-  bottom: 20px;
+  position: absolute;
+  left:10%;
+  top: 7px;
 }
 
 .js{
@@ -27,36 +33,63 @@
 
 .person{
   /*outline: 1px solid orange;*/
-  width:100px;
   font-size: 30px;
-  position: relative;
-  left:1100px;
-  bottom: 60px;
-  color: gray;
+  position: absolute;
+  left: 83%;
+  bottom:105px;
+  display:inline-block;
+  color: #b5b5b5;
 }
 
 .top{
-  outline: 1px solid red;
   margin: 0px;
   padding: 0px;
+  height:160px;
+  width:100%;
+  background-color: #fff;
+  position:fixed;
+  z-index: 1000;
 }
 
+#top .person span{
+  margin-right: 40px;
+}
 
 
 .icon-search{
-  /*outline:1px solid purple;*/
-  font-size: 20px;
   position:relative;
   left:50px;
-  top:15px;
+  top:14px;
 }
 
 p{
-  /*outline: 1px solid red;*/
-  width: 100px;
   display: inline-block;
   margin:5px;
-  padding:15px;
+  padding:20px;
   text-align: center;
+  border-radius: 5px;
   background-color:rgb(231, 125, 143);
+}
+.list{
+  display: inline-block;
+}
+ #menu{
+   display:inline-block;
+   width:80%;
+   position:absolute;
+   right:10%;
+ }
+
+#list{
+  display:inline-block;
+  width:90%;
+  margin:5px;
+  margin-top:200px;
+  position:absolute;
+  right:5%;
+}
+#list #image{
+  float:right;
+  margin:10px;
+  border-radius:5px;
 }
